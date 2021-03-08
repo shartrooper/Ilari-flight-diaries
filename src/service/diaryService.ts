@@ -37,13 +37,8 @@ const addDiary = (entry: NewDiaryEntry): DiaryEntry => {
   return newDiaryEntry;
 };
 
-const addEntry = () => {
-  return null;
-};
-
 export default {
   getEntries,
-  addEntry,
   getNonSensitiveEntries,
   findById,
   addDiary
